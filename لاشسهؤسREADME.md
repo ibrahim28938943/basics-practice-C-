@@ -1,0 +1,1598 @@
+
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+
+	string x = "name:ibrahim"; string y = "city:elsheikh_zaied"; string z = "country: egypt";
+	string A = "age : 21"; string w = "married : 0"; string r = "monthlysalary : 5000"; string t = "yearlysalary : 50000";
+	string s = "gender : m";
+	cout << x << endl << z << endl << A << endl << w << endl << t << endl << r << endl << s << endl << y << endl;
+
+
+
+
+
+
+*********************************************************************************************************
+tring x = "20+";
+	int y = 30;
+	string total = "total = 30 + 20 = 50";
+
+		cout << x<<endl;
+		cout << y << endl;
+		cout << " ***********" << endl;
+		cout << total;
+
+
+
+
+
+
+
+
+
+
+	
+
+
+}
+
+*****************************************************************************************************
+
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+	
+
+
+
+
+
+
+
+		string name;
+		cout << " enter ur name? " << endl;
+		cin >> name;
+		int age;
+		cout << "enter your age?" << endl;
+		cin >> age;
+		float monthlysalary;
+
+		cout << " enter your monthlysalary" << endl;
+		cin >> monthlysalary;
+
+		float yearly_salary = monthlysalary * 12;
+		
+			char city;
+			cout << "your city?" << endl;
+
+			cin >> city;
+
+			string country;
+			cout << "your country? " << endl;
+			cin >> country;
+
+
+
+			int married;
+			cout << "how many times you have married ? " << endl;
+
+			cin >> married;
+			char gender;
+			cout << "what is your gender?" << endl;
+			cin >> gender;
+
+
+
+			cout <<" ***********************************************" << endl;
+
+			cout << "your name is " << name << endl;
+			cout << "your age is " << age << endl;
+			cout << "yor city is " << city << endl;
+				cout << "your married times = " << married << endl;
+						cout << "your gender is " << gender << endl;
+
+						cout << "your yearly salary " << yearly_salary << endl;
+						cout << "your monthly salary" << monthlysalary << endl;
+
+						cout << "******************************************";
+
+
+
+}
+***************************************************************************************************************************
+
+
+
+#include <iostream>
+using namespace std;
+int main()
+{
+
+
+
+	 short int x;
+	cout << "please enter the x num?";
+	cin >> x;
+
+	 long int y;
+	cout << "please enter the y num?";
+	cin >> y;
+	int sum1 = x + y; int sum2 = x - y; int sum3 = x / y; int sum4 = x * y;
+	cout << " the result x + y = " << sum1 <<endl;
+
+
+
+	cout << " the result x - y = " << sum2 << endl;
+
+
+		cout << " the result x/ y = " << sum3 << endl;
+
+
+		cout << " the result x * y = " << sum4 <<endl;
+		
+
+
+
+
+
+
+
+	;
+}
+
+
+***********************************************************************************************************
+home work 
+7#
+
+
+// ConsoleApplication2.cpp : This file contains the 'main' function. Program execution begins and ends there.
+//
+
+#include <iostream>
+using namespace std;
+int main()
+{
+	 short int num1;
+	cout << "please enter  the first number?";
+	cin >> num1;
+
+	 short int num2;
+	cout << "please enter the second number2?";
+	cin >> num2;
+
+	 short int num3;
+	cout << "please enter the third number3?";
+
+	cin >> num3;
+
+	 long int sum = num1 + num2 + num3;
+	cout << "the result = "<< sum;
+
+	;
+}
+****************************************************************************************************
+
+
+8#
+
+
+
+// ConsoleApplication2.cpp : This file contains the 'main' function. Program execution begins and ends there.
+//
+
+#include <iostream>
+using namespace std;
+int main()
+{
+	 short int num1;
+	cout << "please enter  the first mark?";
+	cin >> num1;
+
+	 short int num2;
+	cout << "please enter the second mark2?";
+	cin >> num2;
+
+	 short int num3;
+	cout << "please enter the third mark3?";
+
+	cin >> num3;
+
+	 long int sum = (num1 + num2 + num3)/3;
+	cout << "the average = "<< sum;
+
+	;
+}
+
+******************************************************************************************************************************
+
+9#
+
+// ConsoleApplication2.cpp : This file contains the 'main' function. Program execution begins and ends there.
+//
+
+#include <iostream>
+using namespace std;
+int main()
+{
+	 short int num1;
+	cout << "please enter  the first mark?";
+	cin >> num1;
+
+	 short int num2;
+	cout << "please enter the second mark2?";
+	cin >> num2;
+
+	 short int num3;
+	cout << "please enter the third mark3?";
+
+	cin >> num3;
+
+	 short int sum = (num1 + num2 + num3)/3;
+	cout << "the average = "<< sum;
+	if (sum >= 50) {
+		cout << " pass";
+	}
+	else {
+
+	
+		cout << " fail";
+	}
+
+******************************************************************************************************************
+10#
+
+// ConsoleApplication2.cpp : This file contains the 'main' function. Program execution begins and ends there.
+//
+
+#include <iostream>
+using namespace std;
+int main()
+{
+	 short int num1;
+	cout << "please enter  the first num?";
+	cin >> num1;
+
+	 short int num2;
+	cout << "please enter the second num2?";
+	cin >> num2;
+
+	
+	if ( num1 > num2) {
+		cout << " the bigesst num is = " << num1;
+	}
+	else {
+
+	
+		cout << "the biggest num is " << num2;
+	}
+
+	;
+}
+
+
+
+
+********************************************************************************************************************
+11#
+
+
+
+#include <iostream>
+using namespace std;
+int main()
+{
+	short int num1;
+	cout << "please enter  the first num?";
+	cin >> num1;
+
+	short int num2;
+	cout << "please enter the second num2?";
+	cin >> num2;
+
+	short int num3;
+	cout << "please enter your third number?";
+	cin >> num3;
+
+	if (num1 > num2 && num1 > num3) {
+		cout << " the biggest num is = " << num1;
+}
+	else if (num2 > num1 && num2 > num3) {
+		cout << "The biggest number is = " << num2;
+	}
+	else {
+		cout << "The biggest number is = " << num3;
+	}
+
+	return 0;
+
+
+}
+*************************************************************************************
+
+12#
+
+
+
+
+#include <iostream>
+using namespace std;
+int main()
+{
+	
+	int num1;
+	cout << "please enter first number?";
+	cin >> num1;
+	int num2;
+	cout << "please enter your second number?";
+	cin >> num2;
+	cout << num1 << endl;
+	cout << num2 << endl << endl;
+
+	cout << num2 << endl;
+	cout << num1 << endl;
+
+
+
+
+	return  0;
+
+
+
+
+
+
+}
+**************************************************************************************
+
+13#
+
+#include <iostream>
+using namespace std;
+int main()
+{
+	
+	int a;
+	cout << " please enter a ?";
+	cin >> a;
+	int b;
+	cout << "please enter b ?";
+	cin >> b;
+	float eara = a * b;
+	cout << " the Eara of the rectangle = " << eara;
+
+
+}
+*********************************************************************************************
+
+14#
+#include <iostream>
+using namespace std;
+int main()
+{
+	
+	int a;
+	cout << " please enter a ?";
+	cin >> a;
+	int b;
+	cout << "please enter b ?";
+	cin >> b;
+	float eara = a * sqrt(b * b - a * a);
+	cout << " the aera of the rectangle = " << eara;
+
+
+}
+***********************************************************************************************
+15#
+
+using namespace std;
+int main()
+{
+
+	int a;
+	cout << " please enter a ?";
+	cin >> a;
+	int h;
+	cout << "please enter h ?";
+	cin >> h;
+	float eara =.5 * a * h;
+	cout << " the aera of the Traingle  =  .5*a * h so it will be =" << eara;
+
+
+}
+
+*******************************************************************************************************
+
+16#
+// ConsoleApplication2.cpp : This file contains the 'main' function. Program execution begins and ends there.
+//
+
+#include <iostream>
+using namespace std;
+int main()
+{
+
+	float BY = 3.14;
+	
+	int R;
+	cout << "please enter R ?";
+	cin >> R;
+	float eara = BY * R*R;
+	cout << " the AREA of the CICLE  = " << eara;
+
+
+}
+***************************************************************************************************************
+17#
+
+
+#include <iostream>
+using namespace std;
+int main()
+{
+
+	float BY = 3.14;
+	
+	int D;
+	cout << "please enter D ?";
+	cin >> D;
+	float eara = BY * D*D / 4;
+	cout << " the AREA of the CICLE  = " << eara;
+
+
+}
+
+************************************************************************************************************
+18#
+// ConsoleApplication2.cpp : This file contains the 'main' function. Program execution begins and ends there.
+//
+
+#include <iostream>
+using namespace std;
+int main()
+{
+
+	float BY = 3.14;
+	
+	int A;
+	cout << "please enter A ?";
+	cin >> A;
+	float eara = BY * A*A/ 4;
+	cout << " the AREA of the CICLE  = " << eara;
+
+
+}
+***********************************************************************************************************
+
+
+19#
+// ConsoleApplication2.cpp : This file contains the 'main' function. Program execution begins and ends there.
+//
+
+#include <iostream>
+using namespace std;
+int main()
+{
+
+	float BY = 3.14;
+	
+	int L;
+	cout << "please enter  ?";
+	cin >> L;
+	float eara = L*L / BY * 4;
+	cout << " the AREA of the CICLE  = " << eara;
+
+
+}
+*****************************************************************************************************
+
+20#
+
+// ConsoleApplication2.cpp : This file contains the 'main' function. Program execution begins and ends there.
+//
+
+#include <iostream>
+using namespace std;
+int main()
+{
+
+	float BY = 3.14;
+	
+	int A;
+	cout << "please enter A  ?";
+	cin >> A;
+	int b;
+	cout << " please enter b ";
+	cin >> b;
+	float aera = BY * b*b / 4 * (2* A - b / 2* A+b) ;
+	cout << " the AREA of the CICLE  = " << aera;
+
+
+}
+******************************************************************************************************************************
+21#
+
+
+// ConsoleApplication2.cpp : This file contains the 'main' function. Program execution begins and ends there.
+//
+
+#include <iostream>
+using namespace std;
+int main()
+{
+
+	float BY = 3.14;
+	
+	 short int  a;
+	cout << "please enter A  ?";
+	cin >> a;
+	 short int b;
+	cout << " please enter b ";
+	cin >> b;
+	short int c;
+	cout << "please enter c?";
+	cin >> c;
+	float p = (a + b + c) / 2;
+	float T = BY * (a * b * c) / 4 *sqrt(p*(p - a) * (p - b) * (p - c));
+	float erea = T * T;
+
+
+	cout << " the AREA of the CICLE  = " <<erea;
+
+
+}
+
+************************************************************************************************************************************
+22#
+
+
+
+
+
+using namespace std;
+int main()
+{
+	int age;
+	cout << " please enter your age?";
+	cin >> age;
+	if (age >= 18 && age <= 45)
+	{
+		cout << "valid age";
+	}
+	else {
+		cout << "invalid number";
+	}
+
+
+
+
+
+
+
+}
+
+***********************************************************************************************
+23#
+// ConsoleApplication2.cpp : This file contains the 'main' function. Program execution begins and ends there.
+//
+
+#include <iostream>
+using namespace std;
+int main()
+{
+	while (true) {
+		int age;
+		cout << " please enter your age?";
+		cin >> age;
+		if (age >= 18 && age <= 45)
+		{
+			cout << "valid age";
+			break;
+		}
+		else {
+			cout << "invalid number" << endl;
+
+		}
+
+
+	}
+
+
+
+
+}
+********************************************************************************************************************
+
+31#
+
+
+
+// ConsoleApplication2.cpp : This file contains the 'main' function. Program execution begins and ends there.
+//
+
+#include <iostream>
+using namespace std;
+int main()
+{
+	
+
+	int n;
+	cout << "plrase enter your number?";
+	cin >> n;
+	short int r1 = n * n;
+	short int r2 = n * n * n;
+	short int r3 = n * n * n * n;
+	cout << r1 << endl;
+	cout << r2 << endl;
+	cout << r3 << endl;
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+**************************************************************************************
+35#
+
+// ConsoleApplication2.cpp : This file contains the 'main' function. Program execution begins and ends there.
+//
+
+#include <iostream>
+using namespace std;
+int main()
+{
+	
+
+	short int p;
+	cout << "please enter penny number ?";
+	cin >> p;
+	short int n;
+	cout << "please enter your nikal number?";
+	cin >> n;
+	short int q;
+	cout<< "please enter your quarter number?";
+	cin >> q;
+	short int d;
+	cout << "please enter your dollar ?";
+	cin >> d;
+
+	short int di;
+	cout << "please enter your diamones?";
+	cin >> di;
+
+	float the_result = (p * 1) + (n * 5) +( q * 25) +( d * 100) +( di * 10);
+
+	cout << "the penneis number is " << the_result;
+
+
+
+
+
+
+
+
+}
+
+
+**************************************************
+
+39#
+
+
+#include <iostream>
+using namespace std;
+int main()
+{
+	
+
+	short int p;
+	cout << "please enter cash paid ?";
+	cin >> p;
+	short int n;
+	cout << "please enter your bill?";
+	cin >> n;
+	
+	float the_result = p - n;
+
+	cout << "the remind = " << the_result;
+
+
+
+
+
+
+
+
+}
+
+
+
+
+********************************************************************************************************
+
+
+40#
+
+
+
+// ConsoleApplication2.cpp : This file contains the 'main' function. Program execution begins and ends there.
+//
+
+#include <iostream>
+using namespace std;
+int main()
+{
+	
+
+	short int billvalue;
+	cout << "please enter the bill value? ";
+	cin >> billvalue;
+
+	float serves = billvalue * 1.1;
+	float total = serves * 1.16;
+	cout << "the total amout fees  = " << total;
+	
+
+
+
+
+
+	
+
+
+
+
+
+}
+
+
+
+************************************************************************************
+42#
+
+// ConsoleApplication2.cpp : This file contains the 'main' function. Program execution begins and ends there.
+//
+
+#include <iostream>
+using namespace std;
+int main()
+{
+	
+	int days;
+	cout << "please enter the days number?";
+	cin >> days;
+	int hours;
+	cout << "please enter the hours number?";
+	cin >> hours;
+	int minute;
+	cout << "please enter your minut number?";
+	cin >> minute;
+	int seconds;
+		cout << "please enter your seconds number?";
+		cin >> seconds;
+
+		float total_seconds=(days * 24 * 60 *60 )+(hours * 60 *60)+(minute * 60)+(seconds);
+		cout << "the total of second work is = " << total_seconds;
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+******************************************************************************************
+43#
+
+
+#include <iostream>
+using namespace std;
+int main()
+{
+
+
+
+
+
+
+
+	int secperday = 24 * 60 * 60;
+	int second_perhour = 60 * 60;
+	int second_perminute = 60;
+
+	int tosec;
+   cout << "please enter the total second? ";
+   cin >> tosec;
+   
+   float n_o_d =  tosec / secperday;
+   float res1 = floor(n_o_d);
+    int reminder = tosec % secperday;
+   
+
+   float n_o_h = reminder / second_perhour;
+   int res2 = floor(n_o_h);
+   int reminder2 = reminder % second_perhour;
+   float n_O_S = reminder2 / second_perminute;
+   int res3 = floor(n_O_S);
+   int reminder3 = reminder2 % second_perminute;
+  float n_o_s = reminder3;
+
+  cout << res1 << ":" << res2 << ":" << res3 << ":" << n_o_s;
+
+*******************************************************************************************************
+#47
+
+
+// ConsoleApplication3.cpp : This file contains the 'main' function. Program execution begins and ends there.
+//
+
+#include <iostream>
+using namespace std;
+int main()
+{
+
+	int loan;
+	cout << "please enter the number of a loan mount ? ";
+	cin >> loan;
+
+	int mothly_amount;
+	cout << "please enter the montly amount";
+	cin >> mothly_amount;
+
+	int moths = loan / mothly_amount;
+	cout << " the months is = " << moths;
+
+
+
+
+
+
+
+
+
+}
+********************************************************************************************************************
+
+48#
+
+// ConsoleApplication3.cpp : This file contains the 'main' function. Program execution begins and ends there.
+//
+
+#include <iostream>
+using namespace std;
+int main()
+{
+
+	int loan;
+	cout << "please enter the number of a loan mount ? ";
+	cin >> loan;
+
+	int mothly_num;
+	cout << "please enter the num of months ? ";
+	cin >> mothly_num;
+
+	int installment = loan / mothly_num;
+	cout << " the monthly instellment is = " << installment;
+
+
+
+
+
+
+
+
+
+}
+*****************************************************************************************************************
+
+
+explain ++ , --
+
+// ConsoleApplication3.cpp : This file contains the 'main' function. Program execution begins and ends there.
+//
+
+#include <iostream>
+using namespace std;
+int main()
+{
+	int A = 10;
+	
+	int B =  A -- ;
+	int a = A;
+	cout << B << endl;
+	cout << a;
+
+
+
+}
+
+*********************************************************************************************************************
+
+
+operations & perfix
+
+// ConsoleApplication3.cpp : This file contains the 'main' function. Program execution begins and ends there.
+//
+
+#include <iostream>
+using namespace std;
+int main()
+{
+	bool result;
+
+	cout << (12>=12)<<endl;
+	cout << !(12>=12) << endl;
+	cout << (1&&1) << endl;
+	cout << (7==7 && 7>5) << endl <<endl;
+	
+
+	cout << (12 > 7)<<endl;
+	cout << !(12 > 7) << endl;
+	cout << (0 && 1) << endl;
+	cout << (7 == 7 && 7 < 5) << endl << endl;
+
+
+
+
+	cout << (8 < 6)<<endl;
+
+	cout << !(8 < 6) << endl;
+
+	cout << (0||1) << endl;
+
+	cout << (7==7 || 7>5) << endl<<endl;
+
+
+
+	cout << (8 ==8) << endl;
+	cout << !(8 ==8) << endl;
+	cout << (0||0) << endl;
+	cout << (7 < 7 || 7>5) << endl<<endl;
+
+
+
+
+
+
+	cout << (12<=12) << endl;
+
+	cout << !(12 <= 12) << endl;
+	cout << !(0) << endl;
+	cout << (7 == 7 && 7 > 5) << endl << endl;
+
+
+
+	cout << (7==5) << endl;
+	cout << !(7 == 5) << endl;
+	cout << !(1|| 0) << endl;
+	cout << (7 == 7 && !(7==5)) << endl<<endl;
+
+
+
+
+
+
+	cout << ((5 > 6 && 7 == 7) || (1 || 0)) << endl;
+
+	cout << !((5 > 6 && 7 == 7) || (1 || 0)) << endl<<endl;
+
+
+
+	cout << !((5 > 6 && 7 == 7) || !(1||0))<< endl;
+
+	cout << !((5 > 6 && 7 == 7) && !(1 || 0)) << endl;
+
+
+
+	cout << ((5 > 6 && 7 >= 8) || (8 > 1 && 4 <= 3) && (1)) << endl;
+
+
+	cout << ((5 > 6 && !7 >= 8) && (8 < 1 && 4 <= 3) || (1))<<endl;
+
+                                   
+}
+
+
+
+
+
+
+********************************************************************************************************************
+
+16#
+// ConsoleApplication3.cpp : This file contains the 'main' function. Program execution begins and ends there.
+//
+
+#include <iostream>
+#include<cmath>
+using namespace std;
+int main()
+{
+	 
+	int a;
+	int d;
+	cout << "please enter a ?";
+		cin >> a;
+		cout << "please enter d? ";
+		cin >> d;
+		float area = (a) * sqrt(pow(d, 2) - pow(a, 2));
+
+			cout << "the eara is = "<< area;
+                                   
+}
+
+*****************************************************************************************************************
+17#
+// ConsoleApplication3.cpp : This file contains the 'main' function. Program execution begins and ends there.
+//
+
+#include <iostream>
+#include<cmath>
+using namespace std;
+int main()
+{
+	 
+	int r;
+	
+	cout << "please enter r ?";
+	cin >> r;
+	float by=3.14;
+		
+	float area = pow(r, 2) * by;
+
+
+
+
+
+			cout << "the eara is = "<< ceil(area);
+                                   
+}
+
+***************************************************************************************************************************
+19// ConsoleApplication3.cpp : This file contains the 'main' function. Program execution begins and ends there.
+//
+
+#include <iostream>
+#include<cmath>
+using namespace std;
+int main()
+{
+	 
+	int d;
+	
+	cout << "please enter d ?";
+	cin >> d;
+	float by=3.14;
+		
+	float area = (pow(d, 2) * by)/4;
+
+
+
+
+
+			cout << "the eara is = "<< ceil(area);
+                                   
+}
+
+*******************************************************************************************************
+// ConsoleApplication3.cpp : This file contains the 'main' function. Program execution begins and ends there.
+//
+
+#include <iostream>
+#include<cmath>
+using namespace std;
+int main()
+{
+	 
+	int a;
+	
+	cout << "please enter a ?";
+	cin >> a;
+	float by=3.14;
+		
+	float area = (pow(a, 2) * by)/4;
+
+
+
+
+
+			cout << "the eara is = "<< ceil(area);
+                                   
+}
+
+
+
+
+****************************************************************************************************************************
+
+
+
+
+
+// ConsoleApplication3.cpp : This file contains the 'main' function. Program execution begins and ends there.
+//
+
+#include <iostream>
+#include<cmath>
+using namespace std;
+int main()
+{
+	 
+	int a;
+	
+	cout << "please enter a ?";
+	cin >> a;
+	float by=3.14;
+		
+	float area = (pow(a, 2) * by)/4;
+
+
+
+
+
+			cout << "the eara is = "<< ceil(area);
+                                   
+}
+
+***********************************************************************************************************************************
+
+
+
+
+// ConsoleApplication3.cpp : This file contains the 'main' function. Program execution begins and ends there.
+//
+
+#include <iostream>
+#include<cmath>
+using namespace std;
+int main()
+{
+	 
+	int l;
+	
+	cout << "please enter l ?";
+	cin >> l;
+	float by= 3.14;
+		
+	float area = pow(l, 2) /( 4 * by);
+
+
+
+
+
+			cout << "the eara is = "<< area;
+                                   
+}
+
+****************************************************************************************************************************
+
+
+// ConsoleApplication3.cpp : This file contains the 'main' function. Program execution begins and ends there.
+//
+
+#include <iostream>
+#include<cmath>
+using namespace std;
+int main()
+{
+	 
+	int l;
+	
+	cout << "please enter l ?";
+	cin >> l;
+	float by= 3.14;
+		
+	float area = pow(l, 2) /( 4 * by);
+
+
+
+
+
+			cout << "the eara is = "<< area;
+                                   
+}
+
+*************************************************************************************************************
+// ConsoleApplication3.cpp : This file contains the 'main' function. Program execution begins and ends there.
+//
+
+#include <iostream>
+#include<cmath>
+using namespace std;
+int main()
+{
+	 
+	int a;
+	int b;
+
+	cout << "please enter a ?";
+	cin >> a;
+	cout << "please enter b ?";
+	cin >> b;
+	float by= 3.14;
+
+	float area = by * (pow(b, 2) / 4) * (2 * a - b) / (2 * a + b);
+
+
+
+
+
+			cout << "the area is = "<<floor( area);
+                                   
+}
+
+***********************************************************************************************
+// ConsoleApplication3.cpp : This file contains the 'main' function. Program execution begins and ends there.
+//
+
+#include <iostream>
+#include<cmath>
+using namespace std;
+int main()
+{
+	 
+	int a;
+	int b;
+	int c;
+	
+	cout << "please enter a ?";
+	cin >> a;
+	cout << "please enter b ?";
+	cin >> b;
+	cout << "please enter c ?";
+	cin >> c;
+	float p = (a + b + c) / 2;
+	float by= 3.14;
+
+	float area = by * (pow(   (a*b*c)/   (4* sqrt(p*(p-a)*(p-b)*(p-c))) , 2));
+
+
+
+
+
+	cout << "the area is = "<<floor( area);
+                                   
+}
+
+************************************************************************************************************************
+
+
+// ConsoleApplication5.cpp : This file contains the 'main' function. Program execution begins and ends there.
+//
+
+#include <iostream>
+
+#include<cmath>
+using namespace std;
+
+
+int main()
+{
+	int a;
+	cout << "please enter a ? ";
+	cin >> a;
+	int a1 = pow (a, 2);
+	
+	int a2 = pow(a, 3);
+	int a3 = pow(a, 4);
+
+	cout << a1 << endl << a2 << endl << a3;
+
+
+
+
+
+
+
+
+
+}
+
+***********************************************************************************************************************************
+
+
+
+
+
+// ConsoleApplication5.cpp : This file contains the 'main' function. Program execution begins and ends there.
+//
+
+#include <iostream>
+
+#include<cmath>
+using namespace std;
+
+
+int main()
+{
+	int a;
+	cout << "please enter a ? ";
+	cin >> a;
+	int m;
+	cout << "please enter m? ";
+		cin >> m;
+
+	int a1 = pow (a, m);
+	
+	cout << a1;
+
+
+
+
+
+}
+
+*************************************************************************************************************
+
+
+
+
+
+// ConsoleApplication5.cpp : This file contains the 'main' function. Program execution begins and ends there.
+//
+
+#include <iostream>
+
+#include<cmath>
+using namespace std;
+
+
+int main()
+{
+
+
+
+
+
+	int day;
+	int hours;
+	int second;
+	int minute;
+
+	cout << "please enter days? ";
+	cin >> day;
+	cout << "please enter hours? ";
+	cin >> hours;
+	cout << "please enter minutes? ";
+	cin >> minute;
+	cout << "please enter second? ";
+	cin >> second;
+
+	int a = (day * 24 * 60 * 60) + (hours * 60 * 60) + (minute * 60) + second;
+	cout << a << "seconds";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+*****************************************************************************************************************
+
+43
+
+
+
+
+#include <iostream>
+#include <cmath>
+using namespace std;
+int main()
+{
+
+
+
+
+
+
+
+	int secperday = 24 * 60 * 60;
+	int second_perhour = 60 * 60;
+	int second_perminute = 60;
+
+	int tosec;
+	cout << "please enter the total second? ";
+	cin >> tosec;
+
+	float n_o_d = tosec / secperday;
+	float res1 = round(n_o_d);
+	int reminder = tosec % secperday;
+
+
+	float n_o_h = reminder / second_perhour;
+	int res2 = round(n_o_h);
+	int reminder2 = reminder % second_perhour;
+	float n_O_S = reminder2 / second_perminute;
+	int res3 = round(n_O_S);
+	int reminder3 = reminder2 % second_perminute;
+	float n_o_s = reminder3;
+
+	cout << res1 << ":" << res2 << ":" << res3 << ":" << n_o_s;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+47#
+48#
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
