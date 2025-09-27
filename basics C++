@@ -1486,6 +1486,89 @@ int main()
 
 
 
+// ConsoleApplication7.cpp : This file contains the 'main' function. Program execution begins and ends there.
+//
+
+#include <iostream>
+using namespace std;
+//structure>>datatype like int,string 
+
+struct owner {
+     
+
+    string name;
+    string address;
+     string phone;
+
+
+
+
+
+
+};
+
+struct car {
+
+    string brand;
+    string model;
+     int year;
+    owner car1, car2;
+    
+
+};
+
+
+int main()
+{
+    
+    car mycar1,mycar2,car1,car2;
+    mycar1.brand = "BMW";
+    mycar1.model = "x5";
+    mycar1.year = 2026;
+
+    //********************************************************
+
+    //owner
+    car1.car1.address = "egpty";
+    car1.car1.name = "ibrahim sayed";
+    car1.car1.phone = "201044377084";
+
+    mycar2.brand = "BMW";
+    mycar2.model = "x6";
+    mycar2.year = 2026;
+
+
+    //*********************************************************
+
+    //owner
+    
+    car2.car2.name = "mahmoud";
+    car2.car2.address = "mitgamr";
+    car2.car2.phone = "20153657449";
+
+    cout << "car1 = "<<   car1.car1.address  <<"," << car1.car1.name << "," << car1.car1.phone << "," << mycar1.brand << "," << mycar1.model << "," << mycar1.year << endl;
+
+
+    cout <<"car2= "<< car2.car2.address<<","<<car2.car2.name<<","<< car2.car2.phone << "," << mycar2.brand << "," << mycar2.model << "," << mycar2.year;
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
 
 
 
