@@ -1631,6 +1631,48 @@ int main()
 
 
 
+#include<iostream>
+#include <string>
+using namespace std;
+int main() {
+
+	string name;
+	cout << "please enter the name? ";
+	cin >> name;
+
+
+	string numer1;
+	cout << "please enter the num?";
+	cin >> numer1;
+	
+	string numer2;
+	cout << "please enter the num?";
+	cin >> numer2;
+
+	cout <<"the length of string is= " <<name.length()<<endl;
+//there is a different between length and the number of charcters
+	cout << " char of 2,1,5 is " << name[2]<<"," << name[1] << "," << name[5]<<endl;
+		//name[2,4,7];>>error
+	cout << "the concentring string is= " << numer1 + numer2<<endl;
+
+	int x=stoi(numer1);
+	int y =stoi(numer2);
+
+	cout << "numer1 * numer2=" << x*y;
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
 
 
 
